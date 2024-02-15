@@ -1,0 +1,59 @@
+
+#map {
+    width: 70%;
+    margin: 0 auto; /* Pour centrer horizontalement */
+    height:300px; 
+}
+
+body {
+    background-color: #F3FFE6; 
+}
+
+p {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: justify;
+}
+
+h1 {
+    color: #304076; 
+    font-family: 'Arial';
+    font-weight: 100; 
+}
+
+h2 {
+    color: #304076; 
+    font-family: 'Arial';
+    font-weight: 100; 
+}
+
+h3 {
+    color: #304076; 
+    font-family: 'Arial';
+    font-weight: 100; 
+    width: 70%;
+    margin:0 auto;
+}
+
+#entete {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#entete img {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+    float: left;
+}
+
+.space {
+    margin-bottom: 20px; /* Espace entre deux div */
+}
+
+.fin {
+    text-align: center;
+    font-size: 15px;}

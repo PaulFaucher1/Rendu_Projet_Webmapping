@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analyse des fôrets (31)</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-draw/dist/leaflet.draw.css" />
+    <!-- Remplacez ce bloc de script existant dans votre fichier HTML -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-draw"></script>
+
+<!-- Par cette balise qui lie votre fichier JavaScript externe -->
+    
+
+    <link rel="icon" href="foret.png" type="image/x-icon">
+
+</head>
+<body>
+    <div id = entete>
+        <img src="foret.png" alt="Description de l'image">
+        <h1>Analyse des fôrets en Haute-Garonne : le NDVI du 15 avril 2021</h1>
+    </div>
+
+    <div><p>La Haute-Garonne offre un panorama fascinant de la variété des espèces qui peuplent ce département. L'objectif
+       est de réussir à cartographier automatiquement les différentes espèces d'arbres présentent dans les fôrets.</p>
+       </div>
+       <div class="space"></div>
+       <div>
+        <p>Tout d'abord,
+        je souhaite mettre en lumière les fôrets dans lesquelles la santé de la végétation est la meilleure.
+        Pour cela j'utilise à un indicateur spécifique appelé NDVI, nous pouvons cartographier sa valeur sur l'ensemble du territoire.
+        Cela pourrait permettre par la suite de déterminer la répartition et la localisation des différentes espèces d'arbres. 
+        Cette approche nous permet de comprendre plus clairement quelles sont les fôrets en meilleure santé dans le département, 
+        fournissant ainsi des informations précieuses pour la conservation de la biodiversité et la gestion des écosystèmes locaux.
+    
+    </p></div>
+
+    <div class="space"></div>
+
+    <div><h3> Voici la carte représentant le NDVI pour les fôrets de Haute-Garonne le 15 avril 2021 (focus sur la fôret de Fabas):</h3></div>
+
+    <div class="space"></div>
+    
+    <div id="map" style="height: 600px;"></div>
+
+    <div class="space"></div>
+
+    <div> <p> On observe une grande majorité de la fôret de Fabas avec un NDVI fort sur ce qui renseigne
+        sur la bonne santé de cette fôret. On peut aussi analyser une partie de la fôret avec une couleur plus jaune et orange.
+        Cette partie est sans doute une zone de coupe. A la date de prise de l'image ayant servie pour le calcul du NDVI,
+        il ne devait pas y avoir d'arbres.
+    </p></div>
+
+    <div class="space"></div>
+
+    <div><p style="font-size: 15px; text-align: center;"> Page réalisée par Paul Faucher - M2 SIGMA</p></div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
