@@ -40,6 +40,7 @@ var addLayers = {
 }
 
 L.control.layers(baseLayers, addLayers).addTo(map);
+L.control.scale().addTo(map);
 
 // Set the default base layer
 ortholayer.addTo(map);
